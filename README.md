@@ -1,4 +1,4 @@
-# Generate-linesticker
+# Generate-LineSticker
 
 Use model https://github.com/qhgz2013/anime-face-detector to crop line sticker face
 
