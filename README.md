@@ -6,7 +6,10 @@ Dataset is divided into category, taste and character and available to access [*
 
 **To install dataset**
 
-     pip install 
+     !pip install linestickerdata==0.0.12
+**To see the list of available data** which will show all available data in dict type
+
+     linestickerdata.list_available()
 
 Use model https://github.com/qhgz2013/anime-face-detector to crop line sticker face
 
