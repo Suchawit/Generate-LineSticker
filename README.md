@@ -2,7 +2,7 @@
 
 ## Preparing Datasets
 
-Dataset isd ivided into category, taste and character and available to access from https://github.com/steerapi/line-sticker-data?fbclid=IwAR3cNJ9LHBSd9mmh-C8_Zsv7wfqgjswT3VyiGOzpNIDvCzvEfRCrVMEXjtc
+Dataset is divided into category, taste and character and available to access[**Get it for Chrome.**](https://github.com/steerapi/line-sticker-data?fbclid=IwAR3cNJ9LHBSd9mmh-C8_Zsv7wfqgjswT3VyiGOzpNIDvCzvEfRCrVMEXjtc)<br>
 
 Use model https://github.com/qhgz2013/anime-face-detector to crop line sticker face
 
