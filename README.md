@@ -3,7 +3,9 @@
 ## Preparing Datasets
 
 Dataset is divided into category, taste and character and available to access [**line-sticker-data**](https://github.com/steerapi/line-sticker-data?fbclid=IwAR3cNJ9LHBSd9mmh-C8_Zsv7wfqgjswT3VyiGOzpNIDvCzvEfRCrVMEXjtc)<br>
+
 **To install dataset**
+
      pip install 
 
 Use model https://github.com/qhgz2013/anime-face-detector to crop line sticker face
