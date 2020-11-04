@@ -16,7 +16,9 @@ Dataset contains ***4 folders*** and each one is divided into ***category, taste
      linestickerdata.get_image_paths(folder="Name_of_folder", category="Name_of_category", n=5, num_workers=1, seed=0)
      linestickerdata.get_image_paths(folder="Name_of_folder", taste="Name_of_taste", n=5, num_workers=1, seed=0)
 where `n` is the number of stickers to download, and `num_workers` is the number of workers that use to download the stickers. [**Here is example**](https://github.com/Suchawit/Generate-LineSticker/blob/main/Preparedataset/Download%20all%20image.ipynb)
-
+### Other dataset
+https://www.kaggle.com/ciplab/real-and-fake-face-detection
+http://www.cs.cmu.edu/~mengtial/proj/sketch/
 ## Preprocessing Data
 
 Use [**Model**](https://github.com/qhgz2013/anime-face-detector) to crop line sticker face
