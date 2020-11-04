@@ -21,8 +21,8 @@ where `n` is the number of stickers to download, and `num_workers` is the number
 
 Use [**Model**](https://github.com/qhgz2013/anime-face-detector) to crop line sticker face
 
-Also apply [**human face recognition model**](https://github.com/ageitgey/face_recognition) to seperate human face from sticker line face
+Also apply [**Human Face Recognition Model**](https://github.com/ageitgey/face_recognition) to seperate human face from sticker line face
 
 
-## Training network using CycleGAN
+## Training network using [CycleGAN](https://github.com/junyanz/CycleGAN)
 
