@@ -1,7 +1,8 @@
 # Generate-LineSticker
 
-## Dataset
-------
+## Preparing Datasets
+
+Dataset is available to download from
 
 Use model https://github.com/qhgz2013/anime-face-detector to crop line sticker face
 
