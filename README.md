@@ -18,6 +18,7 @@ Dataset contains ***4 folders*** and each one is divided into ***category, taste
 where `n` is the number of stickers to download, and `num_workers` is the number of workers that use to download the stickers. [**Here is example**](https://github.com/Suchawit/Generate-LineSticker/blob/main/Preparedataset/Download%20all%20image.ipynb)
 ### Other dataset
 https://www.kaggle.com/ciplab/real-and-fake-face-detection
+
 http://www.cs.cmu.edu/~mengtial/proj/sketch/
 ## Preprocessing Data
 
