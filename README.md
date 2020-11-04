@@ -7,7 +7,7 @@ Dataset is divided into category, taste and character and available to access [*
 **To install dataset**
 
      !pip install linestickerdata==0.0.12
-**To see the list of available data** which will show all available data in dict type
+**To see the list of available data** (Dict type)
 
      linestickerdata.list_available()
 
