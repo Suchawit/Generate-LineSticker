@@ -13,7 +13,9 @@ Dataset contains ***4 folders*** and each one is divided into ***category, taste
 **To download and extact sticker**
 
      get_image_paths(folder="Name_of_folder", character="Name_of_character", n=5, num_workers=1, seed=0)
-
+     get_image_paths(folder="Name_of_folder", category="Name_of_category", n=5, num_workers=1, seed=0)
+     get_image_paths(folder="Name_of_folder", taste="Name_of_taste", n=5, num_workers=1, seed=0)
+where n is the number of stickers to download, and num_workers is the number of workers that use to download the stickers.
 Use model https://github.com/qhgz2013/anime-face-detector to crop line sticker face
 
 Also install face_recognition from https://github.com/ageitgey/face_recognition to seperate human face from sticker line face
