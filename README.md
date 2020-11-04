@@ -1,5 +1,6 @@
 # Generate-LineSticker
 <img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Sample_sticker.PNG" width="1000px"/>
+
 ## Preparing Dataset
 
 Dataset contains ***4 folders*** and each one is divided into ***category, taste and character*** available to access [**line-sticker-data**](https://github.com/steerapi/line-sticker-data?fbclid=IwAR3cNJ9LHBSd9mmh-C8_Zsv7wfqgjswT3VyiGOzpNIDvCzvEfRCrVMEXjtc)<br>
