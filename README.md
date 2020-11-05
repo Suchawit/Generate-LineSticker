@@ -59,6 +59,6 @@ After install anime face detector and face recognition and download all line sic
 
 where `/alldata` directory contains all available Line sticker and `/output.json` directory is path output for JSON file. Here is  how to download all Line sticker to target directory
 
-Example crop and detect human face here
+Then crop image, apply face recognition to seperate human face and save to target director. Here is [**example**](https://github.com/Suchawit/Generate-LineSticker/blob/main/Preparedataset/Download%20all%20image.ipynb).
 ## Training network using with Preprocessing Data
 
