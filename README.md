@@ -45,8 +45,7 @@ Then seperate face dataset into trainB and testB as well as sketch dataset
 ### Results
 Sticker to face trained for 200 epochs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sticker to sketch trained for 66 epochs
 
-<img src="https://github.com/Suchawit/Generate-LineSticker/tree/main/Img/Results_withoutpreprocessing.PNG" width="1000px"/>
-
+<img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Results_withoutpreprocessing.PNG" width="1000px"/>
 
 ## Preprocessing Data
 
