@@ -67,4 +67,4 @@ Run this command to train network
 
      python train.py --dataroot ./cropsticker2face --name maps_cropsticker2face --model cycle_gan
 
-`./cropsticker2face` is where the all crop face images of Line stickers is and `maps_cropsticker2face` is where to save weight and example of two trained images, Line sticker and Face images, of each epoch
+`./cropsticker2face` is where the all crop face images of Line stickers is and `maps_cropsticker2face` is where to save a weight and the example of two trained images, Line sticker and Face images, of each epoch
