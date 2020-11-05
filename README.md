@@ -45,6 +45,9 @@ Then seperate face dataset into trainB and testB as well as sketch dataset
 ### Results
 Sticker to face
 
+<img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Results__sticker2face.PNG" width="400px"/>
+
+
 ## Preprocessing Data
 
 Since the results from training network without preprocessing data tend to overfit after 100 epochs by trying to generate unknown letters or characters, Apply [**anime face detector**](https://github.com/qhgz2013/anime-face-detector) and [**face recognition**](https://github.com/ageitgey/face_recognition) to crop Line sticker face and seperate human face which will be used to train with humman face dataset specifically. See illustration below
