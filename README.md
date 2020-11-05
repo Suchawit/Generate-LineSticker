@@ -47,10 +47,7 @@ Sticker to face
 
 ## Preprocessing Data
 
-Use [**Model**](https://github.com/qhgz2013/anime-face-detector) to crop line sticker face
+Since the results from training network without preprocessing data tend to overfit after 100 epochs by trying to generate unknown letters, character and alphabet, Apply [**anime face detector**](https://github.com/qhgz2013/anime-face-detector) and [**face recognition**](https://github.com/ageitgey/face_recognition) to crop Line sticker face and seperate human face which will be used to train with humman face dataset specifically. See illustration below
 
-Also apply [**Human Face Recognition Model**](https://github.com/ageitgey/face_recognition) to seperate human face from sticker line face
-
-
-## Training network using [CycleGAN](https://github.com/junyanz/CycleGAN)
+## Training network using with Preprocessing Data
 
