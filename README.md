@@ -73,5 +73,5 @@ Run this command to train network
 
 Crop Line sticker to Face
 
-<img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Result_withpreprocessing.PNG" width="1000px"/>
+<img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Result_withpreprocessing.PNG" width="500px"/>
 
