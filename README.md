@@ -47,7 +47,7 @@ Sticker to face
 
 ## Preprocessing Data
 
-Since the results from training network without preprocessing data tend to overfit after 100 epochs by trying to generate unknown letters, character and alphabet, Apply [**anime face detector**](https://github.com/qhgz2013/anime-face-detector) and [**face recognition**](https://github.com/ageitgey/face_recognition) to crop Line sticker face and seperate human face which will be used to train with humman face dataset specifically. See illustration below
+Since the results from training network without preprocessing data tend to overfit after 100 epochs by trying to generate unknown letters or characters, Apply [**anime face detector**](https://github.com/qhgz2013/anime-face-detector) and [**face recognition**](https://github.com/ageitgey/face_recognition) to crop Line sticker face and seperate human face which will be used to train with humman face dataset specifically. See illustration below
 
 ## Training network using with Preprocessing Data
 
