@@ -42,6 +42,8 @@ Then seperate face dataset into trainB and testB as well as sketch dataset
       python train.py --dataroot ./sticker2sketch --name maps_sticker2sketch --model cycle_gan
 
 `./sticker2face` directory is where the Line sticker and face datasets are. `./sticker2sketch` directory is where the Line sticker and sketch datasets are 
+### Results
+Sticker to face
 
 ## Preprocessing Data
 
