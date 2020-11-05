@@ -53,7 +53,7 @@ Since the results from training network without preprocessing data tend to overf
 
 <img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Preprocessing_data_illustration.PNG" width="1000px"/>
 
-After install anime face detector and face recognition and download all line sicker( [**example**](https://github.com/Suchawit/Generate-LineSticker/blob/main/Preparedataset/Download%20all%20image.ipynb) ), run this command to get JSON file which reports the position of the face in type of list.
+After install anime face detector and face recognition and download all line sicker( [**example**](https://github.com/Suchawit/Generate-LineSticker/blob/main/Preparedataset/Download%20all%20image.ipynb) ), run this command to get JSON file which reports the position of the face in the type of dict.
 
       python main.py -i /alldata -o /output.json
 
