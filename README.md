@@ -75,3 +75,5 @@ Crop Line sticker to Face
 
 <img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Result_withpreprocessing.PNG" width="500px"/>
 
+### Plot Loss
+Here is the losses of crop Line sticker to face with ([**Example**)
