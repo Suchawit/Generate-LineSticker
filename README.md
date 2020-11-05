@@ -71,3 +71,7 @@ Run this command to train network
 
 ### Results
 
+Crop Line sticker to Face
+
+<img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Result_withpreprocessing.PNG" width="1000px"/>
+
