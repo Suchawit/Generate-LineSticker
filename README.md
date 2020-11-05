@@ -57,7 +57,7 @@ After install anime face detector and face recognition, run this command to get 
 
       python main.py -i /alldata -o /path/to/output.json
 
-where `/alldata` directory contains all available Line sticker and `/path/to/output.json` directory is path output for JSON file. Here is [**example**]( )how to download all Line sticker to target directory
+where `/alldata` directory contains all available Line sticker and `/path/to/output.json` directory is path output for JSON file. Here is [**example**](https://github.com/Suchawit/Generate-LineSticker/blob/main/Preparedataset/Download%20all%20image.ipynb) how to download all Line sticker to target directory
 
 Example crop and detect human face here
 ## Training network using with Preprocessing Data
