@@ -53,11 +53,11 @@ Since the results from training network without preprocessing data tend to overf
 
 <img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Preprocessing_data_illustration.PNG" width="1000px"/>
 
-After install anime face detector and face recognition, run this command to get JSON file which reports the position of the face in type of list.
+After install anime face detector and face recognition and download all line sicker( [**example**](https://github.com/Suchawit/Generate-LineSticker/blob/main/Preparedataset/Download%20all%20image.ipynb) ), run this command to get JSON file which reports the position of the face in type of list.
 
-      python main.py -i /alldata -o /path/to/output.json
+      python main.py -i /alldata -o /output.json
 
-where `/alldata` directory contains all available Line sticker and `/path/to/output.json` directory is path output for JSON file. Here is [**example**](https://github.com/Suchawit/Generate-LineSticker/blob/main/Preparedataset/Download%20all%20image.ipynb) how to download all Line sticker to target directory
+where `/alldata` directory contains all available Line sticker and `/output.json` directory is path output for JSON file. Here is  how to download all Line sticker to target directory
 
 Example crop and detect human face here
 ## Training network using with Preprocessing Data
