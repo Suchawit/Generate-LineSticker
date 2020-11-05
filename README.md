@@ -29,7 +29,15 @@ Sketch dataset can downloaded from [**Here**](http://www.cs.cmu.edu/~mengtial/pr
 <img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Sample_sketch.PNG" width="400px"/>
 
 ## Training Network without Preprocessing Data
-CycleGAN is implemented using torch for collection style transfer ppurpose required unparied two datasets for more detail please access [**Here**](https://github.com/junyanz/CycleGAN)
+CycleGAN is implemented using torch for collection style transfer ppurpose required unparied two datasets for more detail please access [**Here**](https://github.com/junyanz/CycleGAN). After install and create requirement virsual ennvironment for CycleGAN. Divided Line sticker into two folders, first folder is called trainA and second is called testA which trainA and testA contains 1610 images and 500 images from
+
+      get_image_paths(folder=data['folder'], character= row['taste'], n=5, num_workers=1, seed=0)
+      get_image_paths(folder=dataofficial['folder'], character= row['taste'], n=5, num_workers=1, seed=0)
+      get_image_paths(folder=dataofficial-th['folder'], character= row['taste'], n=5, num_workers=1, seed=0)
+      get_image_paths(folder=data-th['folder'], character= row['taste'], n=5, num_workers=1, seed=0)
+      
+      
+      python train.py --dataroot ./cropsticker2face --name maps_excropsticker2face --model cycle_gan
 
       
 ## Preprocessing Data
