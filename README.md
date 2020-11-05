@@ -45,7 +45,7 @@ Then seperate face dataset into trainB and testB as well as sketch dataset
 ### Results
 Sticker to face
 
-<img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Results__sticker2face.PNG" width="400px"/>
+<img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Results__sticker2face.PNG" width="200px"/>
 
 
 ## Preprocessing Data
