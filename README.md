@@ -43,14 +43,14 @@ Then seperate face dataset into trainB and testB as well as sketch dataset
 
 `./sticker2face` directory is where the Line sticker and face datasets are. `./sticker2sketch` directory is where the Line sticker and sketch datasets are 
 ### Results
-Sticker to face
+Sticker to face trained for 200 epochs                                Sticker to sketch trained for 66 epochs
 
 <img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Results_sticker2face.PNG" width="300px"/>
 
 
 ## Preprocessing Data
 
-Since the results from training network without preprocessing data tend to overfit after 100 epochs by trying to generate unknown letters or characters, Apply [**anime face detector**](https://github.com/qhgz2013/anime-face-detector) and [**face recognition**](https://github.com/ageitgey/face_recognition) to crop Line sticker face and seperate human face which will be used to train with humman face dataset specifically. See illustration below
+Since the results from training network without preprocessing data tend to overfit by trying to generate unknown letters or characters, Apply [**anime face detector**](https://github.com/qhgz2013/anime-face-detector) and [**face recognition**](https://github.com/ageitgey/face_recognition) to crop Line sticker face and seperate human face which will be used to train with humman face dataset specifically. See illustration below
 
 ## Training network using with Preprocessing Data
 
