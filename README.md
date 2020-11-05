@@ -18,13 +18,13 @@ Dataset contains ***4 folders*** and each one is divided into ***category, taste
      linestickerdata.get_image_paths(folder="Name_of_folder", taste="Name_of_taste", n=5, num_workers=1, seed=0)
 where `n` is the number of stickers to download, and `num_workers` is the number of workers that use to download the stickers. [**Here is example**](https://github.com/Suchawit/Generate-LineSticker/blob/main/Preparedataset/Download%20all%20image.ipynb)
 ### Other datasets
-To change the style and feature of other images to line sticker style applied these two datasets: 
+To change the style and feature of other images to Line sticker style applied these two datasets: 
 
 Face dataset can be downloaded from [**Here**](https://www.kaggle.com/ciplab/real-and-fake-face-detection)
 
 <img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Sample_human_face.PNG" width="400px"/>
 
-
+Sk
 http://www.cs.cmu.edu/~mengtial/proj/sketch/
 ## Preprocessing Data
 
