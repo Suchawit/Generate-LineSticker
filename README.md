@@ -21,7 +21,9 @@ where `n` is the number of stickers to download, and `num_workers` is the number
 I would like to change the style of image from other datasets to Line sticker style which are:
 
 <img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Sample_human_face.PNG" width="400px"/>
-[**Human Face**](https://www.kaggle.com/ciplab/real-and-fake-face-detection)
+ 
+ [**Human Face**](https://www.kaggle.com/ciplab/real-and-fake-face-detection)
+
 
 http://www.cs.cmu.edu/~mengtial/proj/sketch/
 ## Preprocessing Data
