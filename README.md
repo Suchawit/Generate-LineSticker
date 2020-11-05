@@ -31,10 +31,10 @@ Sketch dataset can downloaded from [**Here**](http://www.cs.cmu.edu/~mengtial/pr
 ## Training Network without Preprocessing Data
 CycleGAN is implemented using torch for collection style transfer ppurpose required unparied two datasets for more detail please access [**Here**](https://github.com/junyanz/CycleGAN). After install and create requirement virsual ennvironment for CycleGAN. Divided Line sticker into two folders, first folder is called trainA and second is called testA which trainA and testA contains 1610 images and 500 images from
 
-     get_image_paths(folder=data['folder'], character= row['taste'], n=5, num_workers=1, seed=0)
-     get_image_paths(folder=dataofficial['folder'], character= row['taste'], n=5, num_workers=1, seed=0)
-     get_image_paths(folder=dataofficial-th['folder'], character= row['taste'], n=5, num_workers=1, seed=0)
-     get_image_paths(folder=data-th['folder'], character= row['taste'], n=5, num_workers=1, seed=0)
+     get_image_paths(folder=data['folder'], n=5, num_workers=1, seed=0)
+     get_image_paths(folder=dataofficial['folder'], n=5, num_workers=1, seed=0)
+     get_image_paths(folder=dataofficial-th['folder'], n=5, num_workers=1, seed=0)
+     get_image_paths(folder=data-th['folder'],n=5, num_workers=1, seed=0)
       
 Then seperate face dataset into trainB and testB as well as sketch dataset
 
