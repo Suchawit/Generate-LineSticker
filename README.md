@@ -28,6 +28,8 @@ Sketch dataset can downloaded from [**Here**](http://www.cs.cmu.edu/~mengtial/pr
 
 <img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Sample_sketch.PNG" width="400px"/>
 
+## Training network
+CycleGAN is implemented using torch for collection style transfer ppurpose required unparied two datasets for more detail please access [**Here**](https://github.com/junyanz/CycleGAN)
 
 ## Preprocessing Data
 
