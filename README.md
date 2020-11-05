@@ -24,8 +24,11 @@ Face dataset can be downloaded from [**Here**](https://www.kaggle.com/ciplab/rea
 
 <img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Sample_human_face.PNG" width="400px"/>
 
-Sk
-http://www.cs.cmu.edu/~mengtial/proj/sketch/
+Sketch dataset can downloaded from [**Here**](http://www.cs.cmu.edu/~mengtial/proj/sketch/)
+
+<img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Sample_sketch.PNG" width="400px"/>
+
+
 ## Preprocessing Data
 
 Use [**Model**](https://github.com/qhgz2013/anime-face-detector) to crop line sticker face
