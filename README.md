@@ -73,7 +73,7 @@ Run this command to train network
 
 Crop Line sticker to Face
 
-<img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Result_withpreprocessing.PNG" width="500px"/>
+<img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Result_withpreprocessing.PNG" width="300px"/>
 
 ### Plot Loss
 Here is the losses of crop Line sticker to face with ([**Example**](https://github.com/Suchawit/Generate-LineSticker/blob/main/Plot%20Loss%20of%20CycleGAN.ipynb)).
