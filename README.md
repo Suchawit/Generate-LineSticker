@@ -43,7 +43,7 @@ Then seperate face dataset into trainB and testB as well as sketch dataset
 
 `./sticker2face` directory is where the Line sticker and face datasets are. `./sticker2sketch` directory is where the Line sticker and sketch datasets are 
 ### Results
-Sticker to face trained for 200 epochs<br />                               Sticker to sketch trained for 66 epochs
+Sticker to face trained for 200 epochs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sticker to sketch trained for 66 epochs
 
 <img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Results_sticker2face.PNG" width="300px"/>
 
