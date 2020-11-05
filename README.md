@@ -63,8 +63,8 @@ Then crop image, apply face recognition to seperate human face and save to targe
 
 ## Training network with Preprocessing Data
 
-Run this command
+Run this command to train network
 
      python train.py --dataroot ./cropsticker2face --name maps_cropsticker2face --model cycle_gan
 
-
+`./cropsticker2face` is where the all crop face images of Line stickers is and `maps_cropsticker2face` is where to save weight and example of two trained images, Line sticker and Face images, of each epoch
