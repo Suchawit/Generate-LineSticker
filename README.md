@@ -3,7 +3,7 @@
 
 ## Dependency
 
-    pip install -r requirement.txt
+    pip install -r requirements_preprocessing_data.txt
     
 This dependency is for preprocessing dataset including **face recognition** and **anime face detector** models
 
