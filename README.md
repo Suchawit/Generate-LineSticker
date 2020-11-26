@@ -26,7 +26,7 @@ Dataset contains ***4 folders*** and each one is divided into ***category, taste
     linestickerdata.get_image_paths(folder="Name_of_folder", character="Name_of_character", n=5, num_workers=1, seed=0)
     linestickerdata.get_image_paths(folder="Name_of_folder", category="Name_of_category", n=5, num_workers=1, seed=0)
     linestickerdata.get_image_paths(folder="Name_of_folder", taste="Name_of_taste", n=5, num_workers=1, seed=0)
-where `n` is the number of stickers to download, and `num_workers` is the number of workers that use to download the stickers. [**Here is example**](https://github.com/Suchawit/Generate-LineSticker/blob/main/Preparedataset/Download%20all%20image.ipynb)
+where `n` is the number of stickers to download, and `num_workers` is the number of workers that use to download the stickers. [**Here is example**](https://github.com/Suchawit/Generate-LineSticker/blob/main/Preparedataset/Download%20all%20image.py) [**Jupyter**](https://github.com/Suchawit/Generate-LineSticker/blob/main/Preparedataset/Download%20all%20image.ipynb)
 ### Other Datasets
 To change the style and feature of other images to Line sticker style applied these two datasets: 
 
@@ -63,13 +63,13 @@ Since the results from training network without preprocessing data tend to overf
 
 <img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Preprocessing_data_illustration.PNG" width="1000px"/>
 
-After install anime face detector and face recognition and download all line sicker( [**example**](https://github.com/Suchawit/Generate-LineSticker/blob/main/Preparedataset/Download%20all%20image.ipynb) ), run this command to get JSON file which reports the position of the face in the type of dict.
+After install anime face detector and face recognition and download all line sicker( [**example**](https://github.com/Suchawit/Generate-LineSticker/blob/main/Preparedataset/Download%20all%20image.py) )( [**Jupyter**](https://github.com/Suchawit/Generate-LineSticker/blob/main/Preparedataset/Download%20all%20image.ipynb) ), run this command to get JSON file which reports the position of the face in the type of dict.
 
      python main.py -i /alldata -o /output.json
 
 where `/alldata` directory contains all available Line sticker and `/output.json` directory is path output for JSON file. Here is  how to download all Line sticker to target directory
 
-Then crop image, apply face recognition to seperate human face and save to target director. Here is [**example**](https://github.com/Suchawit/Generate-LineSticker/blob/main/Preparedataset/Save%20crop%20image.ipynb).
+Then crop image, apply face recognition to seperate human face and save to target director. Here is ([**example**](https://github.com/Suchawit/Generate-LineSticker/blob/main/Preparedataset/Save%20crop%20image.py))([**Jupyter**](https://github.com/Suchawit/Generate-LineSticker/blob/main/Preparedataset/Save%20crop%20image.ipynb)).
 
 ## Training network with Preprocessing Data
 
@@ -86,7 +86,7 @@ Crop Line sticker to Face
 <img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Result_withpreprocessing.PNG" width="300px"/>
 
 ### Plot Loss
-Here is the losses of crop Line sticker to face with ([**Example**](https://github.com/Suchawit/Generate-LineSticker/blob/main/Plot%20Loss%20of%20CycleGAN.ipynb)).
+Here is the losses of crop Line sticker to face with ([**Example**](https://github.com/Suchawit/Generate-LineSticker/blob/main/Plot%20Loss%20of%20CycleGAN.py)) ([**Jupyter**](https://github.com/Suchawit/Generate-LineSticker/blob/main/Plot%20Loss%20of%20CycleGAN.ipynb)).
 
 <img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Plot_Loss.PNG" width="500px"/>
 
