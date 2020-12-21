@@ -36,7 +36,13 @@ Face dataset can be downloaded from [**Here**](https://www.kaggle.com/ciplab/rea
 
 Sketch dataset can downloaded from [**Here**](http://www.cs.cmu.edu/~mengtial/proj/sketch/)
 
-<img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Sample_sketch.PNG" width="400px"/>
+<img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/DETR_example.PNG" width="500px"/>
+
+**DETR**
+
+Apply DETR, for Brown&friends set, to be used in training with cGAN. this model will provide outputs showing what and number of characters in the image which will be processed to be onehot vector as conditional information becoming y for cGAN.
+
+<img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Sample_sketch.PNG" width="500px"/>
 
 ## Training Network without Preprocessing Data
 CycleGAN is implemented using torch for collection style transfer ppurpose required unparied two datasets for more detail please access [**Here**](https://github.com/junyanz/CycleGAN). After install and create requirement virsual ennvironment for CycleGAN. Divided Line sticker into two folders, first folder is called trainA and second is called testA which trainA and testA contains 1610 images and 500 images from
