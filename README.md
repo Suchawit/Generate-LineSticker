@@ -68,7 +68,7 @@ Sticker to face trained for 200 epochs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 Since the results from training network without preprocessing data tend to overfit by trying to generate unknown letters or characters, Apply [**anime face detector**](https://github.com/qhgz2013/anime-face-detector) and [**face recognition**](https://github.com/ageitgey/face_recognition) to crop Line sticker face and seperate human face which will be used to train with humman face dataset specifically. See illustration below
 
-<img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Preprocessing_data_illustration.PNG" width="1000px"/>
+<img src="https://github.com/Suchawit/Generate-LineSticker/blob/main/Img/Applying_twomodels.PNG" width="1000px"/>
 
 After install anime face detector and face recognition and download all line sicker( [**example**](https://github.com/Suchawit/Generate-LineSticker/blob/main/Preparedataset/Download%20all%20image.py) )( [**Jupyter**](https://github.com/Suchawit/Generate-LineSticker/blob/main/Preparedataset/Download%20all%20image.ipynb) ), run this command to get JSON file which reports the position of the face in the type of dict.
 
